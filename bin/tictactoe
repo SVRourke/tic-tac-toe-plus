@@ -1,1 +1,3 @@
-ECHO is on.
+require 'bundler/setup'
+require 'tictactoeplus'
+Game.start()

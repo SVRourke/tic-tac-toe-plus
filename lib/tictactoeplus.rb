@@ -1,6 +1,6 @@
-require "tictactoeplus/version"
-
-module Tictactoeplus
-  class Error < StandardError; end
-  # Your code goes here...
-end
+# require "tictactoeplus/version.rb"
+require 'board.rb'
+require 'game.rb'
+require 'player.rb'
+require 'players/computer.rb'
+require 'players/human.rb'
